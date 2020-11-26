@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+
+/*Cores para adicionar na pagina rocketseat*/
+:root { 
+    --color-body: #121214;
+    --color-roxo: #8258e8;
+    --color-cinza: #6e6e72;
+    --color-gelo: #e1e1e6;
+    --color-cinza-escuro: #323238;
+    --color-cinza-destaque: #202024;
+    --color-verde: #3cac32;
+}
+
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--color-body);
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    border-bottom: 1px solid var(--color-roxo);
+    background-color: var(--color-cinza-destaque);
+    padding: 20px 15px 15px;
+    text-align: center;
+}
+
+.menu div a {
+    padding: 0px 30px;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--color-roxo);
+}
+
+.menu div a:hover {
+    color: var(--color-verde);
+    transition: color 300ms;
+}
+
+.menu img {
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+/*CSS da pagina sobre*/
+
+.parag h1 {
+    margin-bottom: 80px;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.parag {
+    color: var(--color-gelo);
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 100px auto;
+    max-width: 1000px;
+}
+
+.ceo {
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-cinza-destaque);   
+    font-family: 'Roboto', sans-serif;
+}
+
+.foto {
+    border-radius: 50%;
+    height: 200px;
+    margin: 25px;
+    border: 3px solid var(--color-roxo);
+    text-align: center;
+}
+
+.ceo h1 {
+    color: var(--color-gelo);
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-style: normal;
+}
+
+.ceo h2 {
+    color: var(--color-gelo);
+    font-size: 18px;
+    line-height: 28px;
+    padding: 3px 0px;
+}
+
+.ceo button {
+    background-color: var(--color-roxo); 
+    color: var(--color-gelo);
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 12px 32px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ceo p {
+    font-size: 12px;
+    color: var(--color-cinza);
+    border-top: 1px solid var(--color-body);
+    padding: 20px;
+}
+
+.tec {
+    height: 35px;
+    border-radius: 5px;
+    padding: 0px 2px;
+    margin: 25px 0px;
+}
+
+.contatos {
+    margin: 50px 50px 0px 50px;
+    text-align: center;
+}
+
+.contatos img {
+    width: 150px;
+}
+
+.redes {
+    margin-bottom: 50px;
+    text-align: center;
+}
